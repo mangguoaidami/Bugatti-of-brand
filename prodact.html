@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="discription" content="bugatti,个人作品集，布加迪网页设计，前端页面效果展现以及ui设计，有兴趣的朋友加我qq919881028.">
+		<meta name="keywords" content="bugatti,personal works,个人作品集,网页设计，前段工程师，企业网站设计，ui设计，全栈前端工程师">
+		<meta name="author" content="Z-lion">
+		<link rel="icon" href="img/icon/iconLogo.png">
+		<title>prodact</title>
+		<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style/demo.css" >
+		<link rel="stylesheet" type="text/css" href="style/blackbox.css">
+		<link rel="stylesheet" type="text/css" href="style/style2.css" >
+		<link rel="stylesheet" type="text/css" href="style/myApp.css">
+
+		<script src="js/jquery-3.0.0.min.js"></script>
+		<script src="js/jquery.blackbox.min.js"></script>
+	</head>
+	<body>
+				
+		<!-- Home -->
+		<div id="home" class="panel">
+			<div class="container homeSection">
+				<div class="row">
+					<div class="col-xs-12 col-sm-7 col-sm-push-5 homeSectionFont">
+						<h2>Bugatti Veyron 16.4</h2>
+						<p>Since its launch in 2005, the Bugatti Veyron has been regarded as a supercar of<br> superlative quality. It was a real challenge for developers to fulfil the specifications that <br>the new supercar was supposed to meet: over 1,000 hp, a top speed of over 400 km/h <br>and the ability to accelerate from 0 to 100 in under three seconds. Even experts thought it was impossible to achieve<br> these performance specs on the road. But that was not all.</p>
+					</div>
+					<div class="col-xs-12 col-sm-5 col-sm-pull-7">
+						<img src="img/8952533_110943954000_2.jpg" class="img-responsive center-block">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Home -->
+		
+		<!-- Portfolio -->
+		<div id="portfolio" class="panel">
+			<div class="content textFont">
+				<p>Some really nice for image</p>
+				<ul id="works">
+					<li> <img src="img/BUG_veyron_10.jpg" width="350"> </li>
+					<li> <img src="img/BUG_veyron_09.jpg" width="350"> </li>
+					<li> <img src="img/BUG_veyron_02.jpg" width="350"> </li>
+				</ul>
+				
+			</div>
+		</div>
+		<!-- /Portfolio -->
+
+		<!-- About -->
+		<div id="about" class="panel">
+			<div class="content textFont">
+				<p>Optimum elegance and cutting-edge technology</p>
+				<p>The Veyron 16.4 harmoniously combines athletic performance and elegant form, bringing the proud history that is part of the Bugatti-DNA into the present.</p>
+				<p>The classic two-tone design creates the characteristic side view with the signature Bugatti line. The centre line and horseshoe-shaped radiator grille also bridge the gap between the early Bugatti models and the present day. The broad rear section features an imposing retractable spoiler and prominent wings, while the horizontal headlamps and radiator define a striking front.</p>
+				<a href="javascript:blackDLBox();" class="btn btn-primary btn-lg zoomBtn">Disclaimer of liability</a>
+			</div>
+		</div>
+		<script>
+			var box = new BlackBox();
+			function blackDLBox(){
+				box.alert("<p>免责声明1. 本网属于个人练习网站，凡本网站注明来源其他网站素材，包括文字与图片，可以转载使用。凡本网站注明：均转载自其它媒体，本网站转载的目的在于传播更多信息，仅代表作者本人的观点，此类稿件并不代表本网站观点，本网站不承担此类稿件侵权行为的直接责任及连带责任。本网站中的文章(包括转贴文章)内容的版权不归原作者所有,若作者有版权声明的或文章从其它网站转载而附带有原所有站的版权声明者,其版权归属以附带声明为准.3.本网站转载于网络的资讯内容及文章,我们会尽可能注明出处,但不排除来源不明的情况.如因作品内容\版权等需与本网站联系的,请在本网站发表该作品之日起30日内与本站责任编辑联系,否则视为放弃相关权利,由此而导致的任何法律争议和后果,本站不承担任何责任.</p>" +
+						"<a id='close_demo' href='javascript:closeDemo();'><span class='glyphicon glyphicon-remove'></span></a>" )
+			};
+			function closeDemo(){
+				box.boxClose();
+			}
+		</script>
+		<!-- /About -->
+
+		<!-- Technology -->
+		<div id="technicalList" class="panel">
+			<div class="content textFont">
+				<div class="col-sm-5"><img src="img/bugatti_tech-specs_veyron_EN.png" class="img-responsive center-block"></div>
+				<div class="col-sm-7">
+					<table class="table table-bordered">
+						<thead>
+						<tr>
+							<td>TECHNICAL DETAILS</td>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>Cylinder capacity</td>
+							<td>7 993 cm³</td>
+						</tr>
+						<tr>
+							<td>Power output</td>
+							<td>736 kW ( 1 001 HP) at 6 000 rpm</td>
+						</tr>
+						<tr>
+							<td>Max. torque</td>
+							<td>1 250 Nm at 2 200-5 500 rpm</td>
+						</tr>
+						</tbody>
+						<thead>
+						<tr>
+							<td>ACCELERATION</td>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>0 – 100 km/h</td>
+							<td>2.5 sec 0 - 100 km/h</td>
+						</tr>
+						<tr>
+							<td>0 – 200 km/h</td>
+							<td>7.3 sec 0 - 200 km/h</td>
+						</tr>
+						<tr>
+							<td>0 – 300 km/h</td>
+							<td>16.7 sec 0 - 300 km/h</td>
+						</tr>
+						</tbody>
+
+						<thead>
+						<tr>
+							<td>CO2-EMISSION</td>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>In town</td>
+							<td>999 g/km</td>
+						</tr>
+						<tr>
+							<td>Extra-urban</td>
+							<td>373 g/km</td>
+						</tr>
+						<tr>
+							<td>Combined</td>
+							<td>596 g/km</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- /Technology -->
+		
+		<!-- Contact -->
+		<div id="contact" class="panel">
+			<div class="content textFont">
+				<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
+				<p>Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.</p>
+				<form id="form">
+					<p><label>Your Name</label><input type="text" /></p>
+					<p><label>Your Email</label><input type="text" /></p>
+					<p><label>Your Message</label><textarea></textarea></p><br>
+					<a href="##" class="btn btn-info btn-lg signBtn">sign in</a>
+				</form>
+			</div>
+		</div>
+		<!-- /Contact -->
+
+		<!-- Header with Navigation -->
+		<div id="header">
+			<h1>Optimum elegance and cutting-edge technology</h1>
+			<ul id="navigation">
+				<li><a id="link-home" href="#home">Mission</a></li>
+				<li><a id="link-portfolio" href="#portfolio">Gallery</a></li>
+				<li><a id="link-about" href="#about">Technical details</a></li>
+				<li><a id="link-Technology" href="#technicalList">Technology</a></li>
+				<li><a id="link-contact" href="#contact">Contact</a></li>
+				<li><a id="link-back" href="home.html">Back</a></li>
+			</ul>
+
+		</div>
+		<div class="bg_img"></div>
+	</body>
+</html>

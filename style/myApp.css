@@ -1,0 +1,164 @@
+/*reset*/
+
+
+body,form,div,span,ul,ol,li,p,pre,dl,dt,dd,h1,h2,h3,h4,h5,h6,em,a,fieldset,legend,address,label,textarea,select,input,figure,table,th,td,b,i{margin:0;padding:0;}
+fieldset,img{border:0;}
+ul,li{list-style:none;}
+em,i{font-style:normal;}
+table{border-collapse:separate;border-spacing:0;}
+a{text-decoration:none;}
+a:hover{ text-decoration:none;}
+a:focus,input,button,select,textarea{outline:none;}
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-variant: normal;}
+input,select,img{ vertical-align:middle;}
+legend{ display:none;}
+textarea{resize:none;}
+body{ font-family: Arial;}
+
+
+
+/*清浮动1*/
+.clear{ clear:both;}
+.clearfix{zoom:1;}
+.clearfix:after{clear:both; content:"";display:block;height:0;line-height:0;visibility:hidden;}
+
+/*封面部分*/
+.index_wrapper{ width: 100%; height: auto;}
+.logo_wrap ul li{ display: inline-block; margin: 14px 10px;}
+.section{ width: 100%; height: auto;width: 100%; box-shadow: 15px 15px 15px rgba(0,0,0,.5); z-index: 2; background-color: #fff; margin-bottom: 500px;}
+.carLamp{ z-index: 3; opacity: 0;position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;}
+.carMinLamp{ z-index: 2; opacity: 0;position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;}
+.carbody{z-index: 1;}
+
+.mid_bar{ font-size: 30px; color: #fff; line-height: 1.2em;}
+.headerLogoR{ padding-top: 2px;}
+
+.gotoFont{ display: block; width: 100%; left: 0; bottom: 17%; position: absolute; text-align: center; z-index: 10;}
+.gotoFont ul{ display: inline-block;}
+.gotoFont ul li{ float: left; margin: 0 6px;}
+.gotoFont ul li a{ color: #f5f5f5;}
+.gotoFont ul li a:hover{ color: #420303;}
+
+
+/*Home页面*/
+.navbar-inverse{ background: transparent; border: none; padding: 6px 0}
+.nav_right{ float: right;}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{ color: #000; background: transparent;}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a{ color: #fff;}
+.navbar-nav li a{ font-style: italic; font-family: 微软雅黑;}
+.navbar-nav li a:hover{ color: #000!important;}
+.navbar-inverse .navbar-brand{ font-family: Arial; font-size: 24px;}
+.navbar-inverse .navbar-brand:hover{ color: #000;}
+
+.header_wrap{ width: 100%; height: 600px; background: url("../img/banner.gif") no-repeat center; z-index: 3; display: block;}
+.banner_caption{ color: #fff; margin-top: 15%;}
+.banner_caption h2{ font-size: 28px; margin-bottom: 30px;}
+.banner_caption p{ font-size: 16px;}
+.btn_header{ padding: 6px 20px; border-radius: 0; margin: 8px 0;}
+.myVedio{ margin-top: 15%;}
+.vedioBox{ width: 359px; height: 200px; display: block; position: relative;}
+.playBtn{ position: absolute; left: 50%; top:50%; width: 32px; height: 32px; display: block;}
+.playBtn>a{ display: block; width: 32px; height: 32px; background: url("../img/icon/play (1).png") center no-repeat;}
+#BlackBoxAction{ display: none!important;}
+.BlackBoxContent{ border: none!important; box-shadow: none; background-color: transparent;}
+.BlackBoxContent .Inner{ border: none; background: none; position: relative;}
+.Inner{ background-color: transparent!important; padding: 0; border: none;}
+.glyphicon-remove{ position: absolute; right: -10%; top: 0;}
+.navbar-inverse{ transition: 1.5s;}
+
+.bgImg{ background: url("../img/footerBg.jpg") no-repeat center; width: 100%; height: 500px; position: fixed; left: 0;bottom: 0;}
+.imgGropSection{ width: 780px; height: 434px; display: inline-block; position: relative; top: -80px;left: 50%; margin-left: -370px;}
+.imgGropSection a,
+.img_left a{display: block; position: relative;}
+.imgGropSection a span{ width: 100%; height: 100%; background-color: transparent; position: absolute; left: 0; top: 0; text-align: center; font-family: Arial; font-size: 16px; font-style: normal; color: transparent; line-height: 136px;}
+.img_left a span{ width: 100%; height: 100%; background-color: transparent; position: absolute; left: 0; top: 0; text-align: center; font-family: Arial; font-size: 16px; font-style: normal; color: transparent; line-height: 445px;}
+.imgGropSection a:hover>span,
+.img_left a:hover>span{ background-color: rgba(0, 0, 0, 0.2); color: #fff;}
+.img_left a img{width: 100%;}
+.img_right{ width: 100%; height: 324px; display: block; margin-top: 172px;}
+.img_right a{ float: left; margin: 2px;}
+.section_text .row .col-sm-6 h2{ font-size: 24px; margin: 90px 0 30px; color: #000000;}
+.section_text .row .col-sm-6 p{ font-size: 16px; line-height: 1.5em; color: #999999;}
+.bv164 img{ margin-top: 44px;}
+.oeImg img{ margin-top: 130px;}
+footer{ color: #fff;}
+.viewAll,
+.finMore{ margin-top: 47px;}
+.viewAll h1,
+.finMore h1{ font-size: 24px; font-family: Arial;}
+.finMore ul li{ display: inline-block; width: 100%; height: 40px; border-bottom: 1px solid #999999; line-height: 40px;}
+.finMore ul li a{ color: #999999;}
+.finMore ul li a:hover{ color: #fff;}
+.finMore ul li a span{ margin-top: 15px;}
+.waring span{ display: inline-block; width: 16px; height: 16px; background: url("../img/icon/waring1.png") center no-repeat;}
+.find span{ display: inline-block; width: 16px; height: 16px; background: url("../img/icon/find (1).png") center no-repeat;}
+.waring:hover>span{ background: url("../img/icon/waring.png") center no-repeat;}
+.find:hover>span{ background: url("../img/icon/find.png") center no-repeat;}
+.viewAll p{ font-size: 16px; line-height: 32px; color: #999999; margin-top: 15px;}
+.viewAll ul li{ display: inline-block; float: left; margin-right: 24px;}
+.viewAll ul li i{ width: 32px; height: 32px; display: block;}
+.faceBook a i{ background: url("../img/icon/facebook.png") center no-repeat;}
+.faceBook a:hover>i{ background: url("../img/icon/facebook (1).png") center no-repeat;}
+.teiter a i{ background: url("../img/icon/twitter.png") center no-repeat;}
+.teiter a:hover>i{ background: url("../img/icon/twitter (1).png") center no-repeat;}
+.canmerro a i{ background: url("../img/icon/instagram.png") center no-repeat;}
+.canmerro a:hover>i{ background: url("../img/icon/instagram (1).png") center no-repeat;}
+.vedioIcon a i{ background: url("../img/icon/youtube.png") center no-repeat;}
+.vedioIcon a:hover>i{ background: url("../img/icon/youtube (1).png") center no-repeat;}
+.bgImg{width: 100%; background-color: #EDEDED; height: 820px; margin-top: -20px;}
+.footer_wrap{width: 100%; background-color: #1A1A1A; height: 280px; position: fixed; left: 0; bottom: 0; z-index: -1;}
+
+
+
+
+
+/*iphone6*/
+@media(max-width: 767px) {
+    .bgImg{ display: none;}
+    .white_bg{ height: 1520px;}
+    .imgGropSection{ display: none;}
+    .vedioBox img{ width: 260px; height: 150px;}
+    .footer_wrap{ height: 350px;}
+    .vedioBox{ width: 260px; height: 150px;}
+    .section{ margin-bottom: 400px;}
+    .navbar{ background-color: #3e3a39!important;}
+    #navbar{ width: 100%!important;}
+    .navbar-nav li.separate{ display: none;}
+}
+
+@media(min-width: 768px)and(max-width: 1024px) {
+    .imgGropSection{ width: 760px;}
+    .white_bg{ width: 760px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
