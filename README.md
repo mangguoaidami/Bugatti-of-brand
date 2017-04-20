@@ -15,7 +15,7 @@ Here, I have the page uploaded to the FTP above, we can preview in the above, cl
 
 ##frontend frame and more：
 
-*bootstrap3.0
-*html
-*css
-*jquery
+* bootstrap3.0
+* html
+* css
+* jquery
